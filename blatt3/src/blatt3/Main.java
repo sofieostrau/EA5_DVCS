@@ -21,10 +21,18 @@ public class Main {
 					muttisBester.setFruechte(fruechte);
 					muttisBester.macheObstsalat(fruechte);
 					System.out.println(muttisBester + "\n");
+<<<<<<< HEAD
 					
 					System.out.println("Das ist ein Test für Git"); 
 					System.out.println("Ich habe Git endlich verstanden"); 
+=======
+>>>>>>> parent of 844d7e2... delete method unendlicherLoop
 	}
 	
+	public static void unendlicherLoop() {
+        while (true) {
+            // do nothing
+        }
+    }
 	
 }
