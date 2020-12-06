@@ -21,12 +21,9 @@ public class Main {
 					muttisBester.setFruechte(fruechte);
 					muttisBester.macheObstsalat(fruechte);
 					System.out.println(muttisBester + "\n");
+					
+					System.out.println("Das ist ein Test für Git"); 
 	}
 	
-	public static void unendlicherLoop() {
-        while (true) {
-            // do nothing
-        }
-    }
 	
 }
