@@ -23,7 +23,10 @@ public class Main {
 					System.out.println(muttisBester + "\n");
 					
 					System.out.println("Das ist ein Test für Git"); 
+<<<<<<< HEAD
 					System.out.println("Ich habe Git endlich verstanden"); 
+=======
+>>>>>>> parent of 2199256... Test
 	}
 	
 	
