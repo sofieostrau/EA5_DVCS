@@ -12,7 +12,8 @@ jobs:
 
   test:
     name: running unit tests
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
+    
     
     steps:
     - uses: actions/checkout@v1
