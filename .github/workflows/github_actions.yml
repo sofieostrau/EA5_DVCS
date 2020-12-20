@@ -1,0 +1,31 @@
+
+name: GitHub actions example
+
+on: 
+  push:  
+  pull_request:
+    branches: 
+      - main
+      - Testbranch
+        
+jobs:
+
+  test:
+    name: running unit tests
+    runs-on: macos-latest
+    
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js ${{ matrix.node-version}}
+      uses: actions/setup-node@v1
+      with: 
+        node-version: ${{ matrix.node-version}}
+        
+    - name: install
+      run: npm install
+    - name: test
+      run: npm test
+ 
+     
+    
+        
